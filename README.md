@@ -1,11 +1,8 @@
 
 <div align="center">
 
-<p align="center">
-  <h1><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"/> Hi there, I'm Levie
-</h1>
-</p>
 
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"/> Hi there, I'm Levie
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/LevieDianito)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dianitolevie53@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/@dlev_01)
@@ -13,14 +10,14 @@
 
 </div>
 
---- 
+
 <br/>
 
 ## 🧠 About Me
 - Passionate about software development, networks, embedded systems, and machine learning  
 - Exploring full-stack development and AI  
 
----
+
 <br/>
  
 
@@ -52,7 +49,7 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
 
----
+
 <br/>
 
 ## 📊 GitHub Stats
