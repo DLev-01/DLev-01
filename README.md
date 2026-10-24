@@ -24,4 +24,4 @@ I'm interested in software engineering, web development, and machine learning.
 ### Currently
 
 - Working on undergraduate thesis with two more developers involving retrieval-augmented generation and AI agents (LIGTAS)
-- Learning more about backend architecture, machine learning, and building reliable software.
+- Learning more about backend architecture, machine learning, cybersecurity, penetration testing, and building reliable software.
