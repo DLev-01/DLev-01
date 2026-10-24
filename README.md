@@ -11,6 +11,7 @@ I'm interested in software engineering, web development, and machine learning.
 -  **Bomberman** — A LAN-based multiplayer game inspired by the original Bomberman
 - **Battle City** — A single-player game inspired by the original Battle City, featuring additional mechanics and power-ups
 - **Arch242 Assembly & Snake Game** — A custom processor architecture capable of executing assembly programs.
+- **Multi-Queue Scheduler** — A custom Multi-Queue Step Scheduler (MQSS) and a Multi-Level Feedback Queue (MLFQ) scheduling policy within the xv6 operating system kernel
 
 ### Technologies
 
